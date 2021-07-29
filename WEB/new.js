@@ -3,6 +3,8 @@
 
 <h1>My First Web Page</h1>
 <p>My First Paragraph</p>
+<p>My Second Paragraph</p>
+
 
 <p id="demo"></p>
 
