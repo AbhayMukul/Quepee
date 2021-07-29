@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Activity.UserMainActivity">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PERSONAL QUEPEE" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map_CitizenMapAccountActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/card_view_round"
+        android:backgroundTint="#7F000000"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/Iv_UserMainActivity_PersonalQueepee"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/card_view_round"
+            android:backgroundTint="@color/Main_1"
+            android:padding="8dp"
+            android:src="@drawable/ic_round_home_24" />
+
+        <ImageView
+            android:id="@+id/Iv_UserMainActivity_Setting"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/card_view_round"
+            android:backgroundTint="@color/grey"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_settings_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>
